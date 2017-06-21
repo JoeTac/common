@@ -11,8 +11,8 @@ export class CognosService {
   private readonly prdServiceUrl:string = ""; 
   public readonly NONE = "<NONE>";
 
-  private readonly enCode:string = "En";
-  private readonly frCode:string = "Fr";
+  private readonly enCode:string = "_x005fEN";
+  private readonly frCode:string = "_x005fFR";
 
   private readonly langEN:string = "en-CA";
   private readonly langFR:string = "fr-CA";
